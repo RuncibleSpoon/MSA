@@ -83,3 +83,6 @@ services:
    # Expose port 5432 to other Docker containers
    expose:
      - "5432"
+   # Add Ports to debug an posgresql issue
+   ports:
+     - "5432"  

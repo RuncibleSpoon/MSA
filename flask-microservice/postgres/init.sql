@@ -19,5 +19,5 @@ CREATE TABLE visitors (
 -- Has to have tabs in line  22
 ALTER TABLE visitors OWNER TO postgres;
 COPY visitors (site_id, site_name, visitor_count) FROM stdin;
-1   linodeexample.com   0
+1	linodeexample.com	0
 \.
